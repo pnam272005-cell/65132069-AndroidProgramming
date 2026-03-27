@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvTenQG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="United State"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#555555"/>
+
+    <TextView
+        android:id="@+id/tvDanSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Population: 68"
+        android:textSize="14sp"
+        android:textColor="#777777"/>
+
+    <ImageView
+        android:id="@+id/ivLaCo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>
