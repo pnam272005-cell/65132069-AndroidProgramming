@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.BaiTH11_FragmentTinh" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF9800</item>
+    </style>
+
+    <style name="Theme.BaiTH11_FragmentTinh" parent="Base.Theme.BaiTH11_FragmentTinh" />
+</resources>
