@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ĐỔI TIỀN VND -> USD" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="20dp"/>
+    <EditText android:id="@+id/edtTienVND" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Số tiền VND" android:inputType="numberDecimal"/>
+    <EditText android:id="@+id/edtTiGia" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Tỉ giá" android:inputType="numberDecimal"/>
+    <Button android:id="@+id/btnDoiTien" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Đổi tiền" android:layout_marginTop="10dp"/>
+    <TextView android:id="@+id/tvKetQua" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginTop="20dp" android:textColor="#FF0000"/>
+</LinearLayout>
