@@ -1,4 +1,4 @@
-package com.phuongnam.baith12_fragmentdong;
+package com.phuongnam.googlefirebase;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.phuongnam.baith12_fragmentdong", appContext.getPackageName());
+        assertEquals("com.phuongnam.googlefirebase", appContext.getPackageName());
     }
 }
