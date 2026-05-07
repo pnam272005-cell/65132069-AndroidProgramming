@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ViecCanlam" parent="Theme.Material3.DayNight">
+    </style>
+
+    <style name="Theme.ViecCanlam" parent="Base.Theme.ViecCanlam" />
+</resources>
